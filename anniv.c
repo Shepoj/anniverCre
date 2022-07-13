@@ -13,7 +13,7 @@ int concat(int a, int b){
     return c;
 }
 
-static int compare (void const *a, void const *b){
+int compare (void const *a, void const *b){
    int const *pa = a;
    int const *pb = b;
    return *pa - *pb;
